@@ -1,0 +1,22 @@
+table {
+    border: 2px solid;
+    border-collapse: collapse;
+}
+table th {
+    border: 2px solid;
+    padding: 10px;
+}
+
+table td {
+    border: 2px solid;
+    padding: 10px;
+}
+
+input {
+    display: block;
+    margin-top: 15px;
+}
+
+textarea {
+    margin-top: 15px;
+}
