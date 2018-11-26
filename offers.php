@@ -35,7 +35,6 @@
                 . "<th></th><th>ID</th><th>Offer ID</th><th>Hash</th><th>Datetime</th>"
         . "</tr>";
         $sql = "SELECT * FROM clicks WHERE offer_id=$id";
-        echo $sql;
         $result = $db->query($sql);
         while ($row = $result->fetchArray(SQLITE3_ASSOC)){
             echo "<tr>"
